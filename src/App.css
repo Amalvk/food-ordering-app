@@ -1,0 +1,160 @@
+body {
+  background: black;
+}
+.App {
+  color: white;
+  height: 100%;
+}
+.display-flex {
+  display: flex;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  width: "100%";
+  background: rgb(189, 18, 18);
+  padding-top: 0.5rem;
+}
+
+.count-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.resto-name {
+  padding-left: 1%;
+}
+
+.veg-icon {
+  width: 10px;
+  height: 10px;
+  border: 0.2rem solid green; /* Green square */
+  position: relative;
+}
+
+.veg-icon::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: green; /* Green circle */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nonveg-icon {
+  width: 10px;
+  height: 10px;
+  border: 0.2rem solid red; /* red square */
+  position: relative;
+}
+
+.nonveg-icon::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: red; /* red circle */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dish-container {
+  margin: 2%;
+}
+.item-box {
+  margin-top: 2rem;
+}
+
+.dish-item {
+  line-height: "8rem";
+  gap: "2rem";
+}
+
+.dish-name {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dish-description {
+  color: rgb(207, 201, 201);
+  font-size: 4rem;
+  max-width: 60%;
+}
+
+.add-item {
+  text-align: center;
+}
+.count-button {
+  display: flex;
+  background-color: green;
+  max-width: 15%;
+  height: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 0.9rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  align-self: center !important;
+  justify-content: center;
+  line-height: 1rem !important;
+  font-size: 80%;
+}
+
+.operator-button {
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  user-select: none;
+}
+
+.disabled {
+  color: rgb(173, 165, 165);
+}
+
+.operator-button .disabled {
+  color: rgb(183, 175, 175) !important;
+}
+
+.cont-value {
+  align-self: center;
+}
+
+.warning-message {
+  color: red;
+}
