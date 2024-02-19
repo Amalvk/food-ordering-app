@@ -1,18 +1,12 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+import {Tab,Tabs,Box} from "@mui/material";
 import Dishes from "./Dishes";
-import { useSelector } from "react-redux";
 
 function Category(props) {
   const [value, setValue] = useState(0);
   const handleChange = (newValue) => {
     setValue(newValue);
   };
-  const state = useSelector((state) => state);
   const dish = props.data[0];
 
   return (

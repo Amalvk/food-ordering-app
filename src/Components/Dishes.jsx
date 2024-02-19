@@ -1,6 +1,5 @@
-import { Box, Button, Divider, Grid, Typography } from "@mui/material";
-import React, { useState } from "react";
-import { decrement, increment } from "../Redux/reduxStore";
+import { Box, Divider, Grid, Typography } from "@mui/material";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   addToCart,
@@ -18,6 +17,7 @@ function Dishes(prop) {
   const message = [
     { type: 1, message: "Customization available" },
     { type: 2, message: "Not available" },
+    { type: 3, message: "" },
   ];
 
   const checkDishStatus = (item) => {
@@ -27,14 +27,11 @@ function Dishes(prop) {
         break;
       case false:
         return 2;
-        break;
 
       default:
-        break;
+        return 3;
     }
   };
-
-  console.log(cartItems);
 
   const handleItemDecrement = (item) => {
     if (cartItems[item.dish_id].quantity > 1) {
@@ -46,12 +43,11 @@ function Dishes(prop) {
 
   return (
     <div className="dish-container">
-      {dishes.category_dishes.map((item) => {
-        const disabled = state.cartCount == 0;
+      {dishes.category_dishes.map((item,index) => {
+        const disabled = state.cartCount === 0;
 
-        console.log(item);
         return (
-          <div>
+          <div key={index}>
             <Grid container className="item-box">
               <Grid
                 item
@@ -64,7 +60,7 @@ function Dishes(prop) {
               >
                 <Box className="display-flex dish-name">
                   <Box
-                    class={item.dish_Type == 1 ? "veg-icon" : "nonveg-icon"}
+                    class={item.dish_Type === 1 ? "veg-icon" : "nonveg-icon"}
                   ></Box>
                   <Box>{item.dish_name}</Box>
                 </Box>
@@ -74,7 +70,7 @@ function Dishes(prop) {
                 <Typography className="dish-description" fontSize={".8rem"}>
                   {item.dish_description}
                 </Typography>
-                {checkDishStatus(item) != 2 && (
+                {checkDishStatus(item) !== 2 && (
                   <Box className="display-flex count-button">
                     {cartItems[item.dish_id] ? (
                       <>
