@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+live app link : https://vk-foodorder.netlify.app/
+
 Instructions :
 1. The API returns the dish categories and the dishes in that category.
 2. The dish categories should be slidable.
