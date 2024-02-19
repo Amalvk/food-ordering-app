@@ -7,10 +7,10 @@ Instructions :
 “Customizations available”.
 4. Clicking on the ‘+’ and ‘-’ buttons should update the count accordingly and also
 on the cart icon on the top bar.
-5. Use any kind of state management (Redux toolkit preferred).
-6. Implement maintainable and reusable coding standards.
-7. The tabs must not be hardcoded, its length should change as per the API
-8. Make sure this project is git versioned.
+5. implemented **Redux toolkit **
+6. maintainable and reusable coding standards.
+7. The tabs not be hardcoded, its length should change as per the API
+
 
 ![image](https://github.com/Amalvk/food-ordering-app/assets/55309949/8c0dab43-85bc-4e6b-9f3d-f9901819ad1a)
 
