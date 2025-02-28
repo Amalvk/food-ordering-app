@@ -1,0 +1,189 @@
+{
+  "table_menu_list": [
+    {
+      "menu_category": "Vegetarian Dishes",
+      "category_dishes": [
+        {
+          "dish_Type": "1",
+          "dish_name": "Kerala Sadya",
+          "dish_currency": "₹",
+          "dish_description": "A traditional Kerala feast with rice, sambar, avial, thoran, olan, pappadam, pickle, and payasam.",
+          "dish_price": "180",
+          "dish_calories": "1200",
+          "dish_id": "KSAD001",
+          "dish_image": "http://yourimagehost.com/images/kerala_sadya.jpg"
+        },
+        {
+          "dish_Type": "1",
+          "dish_name": "Appam with Stew",
+          "dish_currency": "₹",
+          "dish_description": "Soft, fluffy appams served with a rich coconut-based vegetable stew.",
+          "dish_price": "90",
+          "dish_calories": "850",
+          "dish_id": "APPST002",
+          "dish_image": "https://www.saffronbowl.com/single-post/2017/07/24/Appam-and-Veg-Stew"
+        },
+        {
+          "dish_Type": "1",
+          "dish_name": "Puttu with Kadala Curry",
+          "dish_currency": "₹",
+          "dish_description": "Steamed rice flour cakes served with black chickpea curry.",
+          "dish_price": "70",
+          "dish_calories": "600",
+          "dish_id": "PUTK003",
+          "dish_image": "https://www.keralatourism.org/kerala-food/puttu-kadala/43/"
+        },
+        {
+          "dish_Type": "1",
+          "dish_name": "Idiyappam with Vegetable Kurma",
+          "dish_currency": "₹",
+          "dish_description": "Thin rice noodle cakes served with a flavorful coconut-based vegetable curry.",
+          "dish_price": "80",
+          "dish_calories": "750",
+          "dish_id": "IDIK004",
+          "dish_image": "https://mariasmenu.com/vegetarian/idiyappam"
+        },
+        {
+          "dish_Type": "1",
+          "dish_name": "Masala Dosa",
+          "dish_currency": "₹",
+          "dish_description": "Crispy rice crepe stuffed with spiced potato masala, served with sambar and chutney.",
+          "dish_price": "65",
+          "dish_calories": "500",
+          "dish_id": "MASD005",
+          "dish_image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Masala_Dosa.JPG"
+        }
+      ]
+    },
+    {
+      "menu_category": "Non-Vegetarian Dishes",
+      "category_dishes": [
+        {
+          "dish_Type": "0",
+          "dish_name": "Kerala Fish Curry",
+          "dish_currency": "₹",
+          "dish_description": "Spicy and tangy fish curry cooked with coconut and tamarind, served with rice.",
+          "dish_price": "220",
+          "dish_calories": "950",
+          "dish_id": "KFISH006",
+          "dish_image": "https://mariasmenu.com/kerala-recipes/varutharacha-meen-curry-fish-in-roasted-coconut-gravy"
+        },
+        {
+          "dish_Type": "0",
+          "dish_name": "Chicken Varutharacha Curry",
+          "dish_currency": "₹",
+          "dish_description": "A Kerala-style chicken curry with roasted coconut and aromatic spices.",
+          "dish_price": "200",
+          "dish_calories": "1100",
+          "dish_id": "CHVAR007",
+          "dish_image": "https://butfirstchai.com/varutharacha-malabar-chicken-curry-chicken-curry-with-roasted-coconut-sauce/"
+        },
+        {
+          "dish_Type": "0",
+          "dish_name": "Beef Fry (Kerala Style)",
+          "dish_currency": "₹",
+          "dish_description": "Spicy beef fry with coconut, curry leaves, and black pepper, served with parotta.",
+          "dish_price": "250",
+          "dish_calories": "1200",
+          "dish_id": "BFRY008",
+          "dish_image": "https://www.jesnisfoodiedays.com/2020/07/kerala-style-beef-dry-fry-beef.html"
+        },
+        {
+          "dish_Type": "0",
+          "dish_name": "Duck Mappas",
+          "dish_currency": "₹",
+          "dish_description": "Traditional Kerala duck curry cooked in coconut milk and mild spices.",
+          "dish_price": "280",
+          "dish_calories": "1300",
+          "dish_id": "DMAP009",
+          "dish_image": "https://www.keralatourism.org/kerala-food/duck-mappas/33/"
+        },
+        {
+          "dish_Type": "0",
+          "dish_name": "Prawns Roast",
+          "dish_currency": "₹",
+          "dish_description": "Delicious Kerala-style prawn roast with coconut and spices.",
+          "dish_price": "270",
+          "dish_calories": "1050",
+          "dish_id": "PRAW010",
+          "dish_image": "https://nishkitchen.com/kerala-prawn-roast-chemmen-roast/"
+        }
+      ]
+    },
+    {
+      "menu_category": "Breakfast Items",
+      "category_dishes": [
+        {
+          "dish_Type": "1",
+          "dish_name": "Idli with Sambar & Chutney",
+          "dish_currency": "₹",
+          "dish_description": "Soft steamed rice cakes served with hot sambar and coconut chutney.",
+          "dish_price": "50",
+          "dish_calories": "400",
+          "dish_id": "IDLI011",
+          "dish_image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Idli_Sambar.JPG"
+        },
+        {
+          "dish_Type": "1",
+          "dish_name": "Dosa with Chutney & Sambar",
+          "dish_currency": "₹",
+          "dish_description": "Thin rice crepe served with coconut chutney and sambar.",
+          "dish_price": "60",
+          "dish_calories": "450",
+          "dish_id": "DOS012",
+          "dish_image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Dosa_with_Chutney_and_Sambar.jpg"
+        },
+        {
+          "dish_Type": 0,
+          "dish_name": "Uppumavu (Upma) with Banana",
+          "dish_currency": "₹",
+          "dish_description": "A simple and light semolina dish, served with ripe banana.",
+          "dish_price": "55",
+          "dish_calories": "350",
+          "dish_id": "UPMA013"
+        },
+        {
+          "dish_Type": 0,
+          "dish_name": "Pathiri with Chicken Curry",
+          "dish_currency": "₹",
+          "dish_description": "Thin rice pancakes served with flavorful chicken curry.",
+          "dish_price": "100",
+          "dish_calories": "800",
+          "dish_id": "PATH014"
+        },
+        {
+          "dish_Type": 0,
+          "dish_name": "Ney Pathal with Mutton Curry",
+          "dish_currency": "₹",
+          "dish_description": "Crispy deep-fried rice bread served with spicy mutton curry.",
+          "dish_price": "160",
+          "dish_calories": "950",
+          "dish_id": "NPMU015"
+        }
+      ]
+    },
+    {
+      "menu_category": "Beverages",
+      "category_dishes": [
+        {
+          "dish_Type": 1,
+          "dish_name": "Kerala Sulaimani Tea",
+          "dish_currency": "₹",
+          "dish_description": "A refreshing black tea infused with cardamom and lemon.",
+          "dish_price": "20",
+          "dish_calories": "30",
+          "dish_id": "KSUL016"
+        },
+        {
+          "dish_Type": 1,
+          "dish_name": "Tender Coconut Water",
+          "dish_currency": "₹",
+          "dish_description": "Fresh and natural tender coconut water to keep you hydrated.",
+          "dish_price": "40",
+          "dish_calories": "40",
+          "dish_id": "TCOC017"
+        }
+      ]
+    }
+  ]
+}

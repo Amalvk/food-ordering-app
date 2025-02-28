@@ -9,7 +9,7 @@ export const homeSlice = createSlice({
   initialState,
   reducers: {
     addItems: (state, action) => {
-      state.dishes = action.payload.data;
+      state.dishes = action.payload;
     },
   },
 });

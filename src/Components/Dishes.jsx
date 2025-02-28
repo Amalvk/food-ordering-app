@@ -43,7 +43,7 @@ function Dishes(prop) {
 
   return (
     <div className="dish-container">
-      {dishes.category_dishes.map((item,index) => {
+      {dishes && dishes.category_dishes.map((item, index) => {
         const disabled = state.cartCount === 0;
 
         return (
@@ -65,7 +65,7 @@ function Dishes(prop) {
                   <Box>{item.dish_name}</Box>
                 </Box>
                 <Box>
-                  {item.dish_currency}: {item.dish_price}
+                  {item.dish_price} {item.dish_currency}
                 </Box>
                 <Typography className="dish-description" fontSize={".8rem"}>
                   {item.dish_description}
@@ -76,9 +76,8 @@ function Dishes(prop) {
                       <>
                         {" "}
                         <Box
-                          className={`operator-button ${
-                            disabled ? "disabled" : ""
-                          }`}
+                          className={`operator-button ${disabled ? "disabled" : ""
+                            }`}
                           onClick={() => {
                             handleItemDecrement(item);
                           }}
@@ -137,7 +136,7 @@ function Dishes(prop) {
             </Grid>
             <Divider
               sx={{
-                borderBottom: "1px solid #DEDEDE",
+                borderBottom: "1px solid rgb(0, 0, 0)",
                 mt: "2rem",
                 transform: "scaleY(0.3)",
               }}

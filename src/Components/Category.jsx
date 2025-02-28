@@ -8,6 +8,7 @@ function Category(props) {
     setValue(newValue);
   };
   const dish = props.data[0];
+  console.log(dish);
 
   return (
     <Box sx={{ width: "100%" }}>
@@ -21,15 +22,15 @@ function Category(props) {
           variant="scrollable"
           scrollButtons="auto"
         >
-          {dish.table_menu_list.map((item, index) => (
+          {dish && dish.table_menu_list.map((item, index) => (
             <Tab
               onClick={() => handleChange(index)}
               key={index}
               label={item.menu_category}
               sx={{
-                fontWeight: 500,
+                fontWeight: 600,
                 fontSize: ".6rem",
-                color: "white",
+                color: "black",
                 "&.Mui-selected": {
                   color: "red",
                 },
@@ -39,7 +40,7 @@ function Category(props) {
         </Tabs>
       </Box>
 
-      <Dishes value={dish.table_menu_list[value]} />
+      <Dishes value={dish && dish.table_menu_list[value]} />
     </Box>
   );
 }

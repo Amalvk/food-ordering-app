@@ -1,8 +1,8 @@
 body {
-  background: black;
+  background: rgb(255, 255, 255);
 }
 .App {
-  color: white;
+  color: rgb(0, 0, 0);
   height: 100%;
 }
 .display-flex {
@@ -25,7 +25,8 @@ body {
 
 .header {
   width: "100%";
-  background: rgb(189, 18, 18);
+  color: azure;
+  background: rgb(179, 58, 58);
   padding-top: 0.5rem;
 }
 
@@ -109,7 +110,7 @@ body {
 }
 
 .dish-description {
-  color: rgb(207, 201, 201);
+  color: rgb(0, 0, 0);
   font-size: 4rem;
   max-width: 60%;
 }
@@ -119,7 +120,7 @@ body {
 }
 .count-button {
   display: flex;
-  background-color: green;
+  background-color: rgb(93, 182, 93);
   max-width: 15%;
   height: 1rem;
   justify-content: space-between;
